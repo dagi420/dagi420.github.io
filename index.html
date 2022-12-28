@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-------favicon------>
+<link rel="shortcut icon" href="images/favicon/Ministry_of_Innovation_and_Technology_(Ethiopia).png">
+</head>
+<body>
+    <!-- Topbar Start -->
+    <section class="topbar">
+        <div class="topbar-row">
+    
+                <div class="topbar-col">
+                <img src="./images/home/download (1).png" height=8px; width=16px; position=absolute;>
+                <h6 class="topbar-header">Federal Democratic Republic of Ethiopia</h6>
+        
+            </div>
+               
+                <div class="topbar-col">
+                    <img src="./images/home/email (1).png" width=10px; position=relative;>
+                        <a href=" ">contact@mint.gov.et</a>
+                </div>
+                <div class="topbar-col">
+                    <img src="./images/home/phone-call (1).png" width=10px; position=relative;>
+                        <a href="">+251-111-265737 </a>
+                </div>
+    
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+                
+            </div>
+        </div>
+            
+    </section>
+    <!-- Topbar End -->
+    
+<!----------------------nav-bar---------------------------------->
+
+    <section class="navbar">
+        <nav>
+            <a href="index.html"><img src="images/home/logo_7.png" alt="mint_logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a class="ex-1" href="#">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="accountable.html">Accountable Institutions</a></li>
+                
+                    <li>
+                        <div class="dropdown">
+                        <button class="dropbtn">Announcement
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">News</a>
+                          <a href="#">Open Workplace</a>
+                          <a href="#">Finish</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li><a href="">Ministry</a></li>
+
+                    <li><a href="amh/index.html">Am(አማ)</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>   
+            <div id="social">
+                <ul>
+                    <li><a href="https://www.facebook.com/mint_ethiopia/"><i class="icon-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/odhiambokatieno"><i class="icon-twitter"></i></a></li>	                      
+                    <li><a href="#0"><i class="icon-google"></i></a></li>
+                    <li><a href="linkedin.com/in/odhiamboatieno/"><i class="icon-linkedin"></i></a></li>
+                </ul>
+            </div> 
+        </nav>
+    </section>
+
+<!------------slideshow------------>
+
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <div class="text">
+            <h1>
+                <b> Message from his Excellency <br> Minister</b>
+            </h1>
+            <br>
+            <u> Dear followers of this page, it is a proven fact that innovation and technology<br>
+            capacity building is having tremendous role for the overall growth and prosperity<br>
+            of a nation...
+            </u>
+            <br>
+            <br>
+            <br>
+            <a class="btns" href="./message.html">Readmore</a>
+        </div>
+        <img src="./images/home/belete.jpg" style="width: 100%;"alt="Slider1">
+         
+    </div>
+    
+
+    <div class="mySlides fade">
+      <div class="text">
+          <h1>
+            <b> Ethiopia launched its first <br> observatory satallite</b>
+           </h1>
+            <u>
+            Ethiopia launched its first sattelite into space on Friday (Dec. 20).
+            </u>
+            <br>
+            <br>
+            <br>
+            <a class="btns" href="./satellite.html">Readmore</a>
+        </div>
+
+          <img src="./images/home/car2.jpg" style="width: 100%;"alt="Slider2">
+          
+        </div>
+        
+       
+    <div class="mySlides fade">
+      
+      
+      <div class="text">
+        <h1>
+            <b> Digital Strategy</b><br>
+        </h1>
+        <u>
+            The world is undergoing a fourth industrial revolution at an unprecedented rate.
+        </u>
+        <br>
+        <br>
+        <br>
+        <a class="btns" href="./digitalstrategy.html">Readmore</a>
+      </div>
+      <img src="./images/home/Slider-3.png" style="width:100%" alt="Slider3">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  
+    </div>
+</section>
+
+<!----About section start---->
+<section class="about">
+    <div class="main">
+        <img src="images/home/ETdeeds-call_Finall-1-1536x1318.png">
+        <div class="about-text">
+            <h2>Call for Application!</h2>
+            <p>Innovation for Development Program in a collaboration with Ministry of Innovation and Technology, Job Creation Commission, United Nations Development Program and Korean International Cooperation Agency invites ICT and ICT related startups and SMEs to apply for # ET deeds 2021 call.</p>
+            <a class="button" href="./job application/index.html">Apply</a>
+        </div>
+    </div>
+</section>
+
+
+
+<!--------------------Latest Updates------------------->
+<div class="updates">
+    <div class="title">
+        <h2>LATEST UPDATES</h2>
+    </div>
+
+    <div class="row-t">
+            <div class="updates-col">
+                <img src="images/home/debate.jpg">
+                    <h4>"Ethiopia is working towards making the Telecommunication Development Conference"</h4>
+                    <p>Ethiopia is to host WTDC-21, the first conference ever hosted in Africa. Addis Ababa, October 1, 2021 - The national steering committee for WTDC held...</p>
+            </div>
+            <div class="updates-col">
+                <img src="images/home/rivan.jpg">
+                    <h4>Ethiopia is commited and strongly supporting the Global Data Security</h4>
+                    <p>Our Ministry wants to be part of the Global Data Security initiatives requests all Countries to put equal.</p>
+            </div>
+            <div class="updates-col">
+                <img src="images/home/paki-1.jpg">
+                    <h4>Pakistan calls for the establishment of Ethio-Paskistan Scientific Diplomacy Forum</h4>
+                    <p>The forum will enable the two countries to share knowledge and experience and collaborate in science, technology and innovation. H.E Mr. Shozab Abbas Ambassador of...</p>
+            </div>
+        
+    </div>
+
+</div>
+<!------------featured initiatives--------------->
+
+<section class="features">
+    <div class="title">
+    <h2>FEATURED INITIATIVES</h2>
+
+    <div class="row">
+        <div class="features-col">
+            <img src="images/home/blood.jpg">
+            <div class="layer">
+                <h3>Blood donation</h3>
+            </div>
+        </div>
+        <div class="features-col">
+            <img src="images/home/plant.jpg">
+            <div class="layer">
+                <h3>Green legacy</h3>
+            </div>
+        </div>
+        <div class="features-col">
+            <img src="images/home/pan.jpg">
+            <div class="layer">
+                <h3>Visit</h3>
+            </div>
+        </div>
+        <div class="features-col">
+            <img src="images/home/cov1.jpg">
+            <div class="layer">
+                <h3>IGF2022</h3>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-----service section start----------->
+<div class="service">
+    <div class="title">
+        <h2>SELECTED SERVICES</h2>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <img src="images/home/data-center-hosting.svg">
+            <h5>Data Center Hosting</h5>
+            <div class="pra">
+                <p>The ministry helps companies who need physical data centers but don't have the need to build their own proprietary physical locations.</p>
+
+                <p style="text-align: center;">
+                    <a class="button" href="./Payment-with-Yenepay-Php - form/step-1.php">Use service</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/home/Email_services.svg">
+            <h5>Email Services</h5>
+            <div class="pra">
+                <p>Government official request through letter to get Safe and secure email accounts.</p>
+
+                <p style="text-align: center;">
+                    <a class="button" href="./Payment-with-Yenepay-Php - form/step-1.php">Use service</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/home/sms_services.svg">
+            <h5>SMS Services</h5>
+            <div class="pra">
+                <p>The ministry help client’s to deliver critical communications in uncertain times with SMS.</p>
+
+                <p style="text-align: center;">
+                    <a class="button" href="./Payment-with-Yenepay-Php - form/step-1.php">Use service</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------maps and insert------------->
+
+<section class="container-box">
+    <div class="contact-box">
+                <iframe class="left" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15761.749275342047!2d38.7550749!3d9.0238105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2dc416a9b5ac4ac4!2z4Yuo4Yqi4YqW4Yms4Yi94YqVIOGKpeGKkyDhibThiq3hipbhiI7hjIIg4Yia4YqS4Yi14Ym04Yit!5e0!3m2!1sam!2set!4v1667120291797!5m2!1sam!2set" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+        <div class="right">
+            <h2>Contact Us</h2>
+            <input type="text" class="field" placeholder="Your Name">
+            <input type="text" class="field" placeholder="Your Email">
+            <input type="text" class="field" placeholder="Phone">
+            <textarea placeholder="Message" class="field"></textarea>
+            <a href="contact@mint.gov.et"><button class="btn">Send</button></a>
+        </div>
+    </div>
+</section>
+
+<!-----------footer-------------->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Related links</h4>
+                <ul>
+                    <li><a href="https://pmo.gov.et/">Office of the Prime Minister</a></li>
+                    <li><a href="https://www.insa.gov.et/">Information Network Security Agency</a></li>
+                    <li><a href="http://www.ebti.gov.et/">Ethiopian Biotechnology Institute</a></li>
+                    <li><a href="http://www.techin.gov.et/">Technology and Innovation Institute</a></li>
+                    <li><a href="https://etssti.org/">Ethiopian Space Science and technology Institute</a></li>
+                    <li><a href="https://eca.et/">Ethiopian communications Authority</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="">Address: Addis Ababa, Ethiopia</a></li>
+                    <li><a href="">Phone: +25111265737</a></li>
+                    <li><a href="">Email: contact@mint.gov.et</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/MInT.Ethiopia/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/ministryofinno2"><i class="fa fa-twitter"></i></a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ft.me%2Fjoinchat%2FAAAAAEmqYHQCQZUiBv1nhQ&h=AT1IOYQIfVrZkhtaFStJQ5bWEZFLN3vikfpFPopyL-SNmxO6LIYRQKu47u49jfyuteSeCAv-Hi1ut9vuVdo0Aa951-Yd8C6mp-i8ffxfFXirE4znJ00AFBVjAWGyJfwmOrilqyyEL9u3Mmazk4PQ"><i class="fa fa-telegram"></i></a>
+                    <a href="https://et.linkedin.com/company/ministry-of-innovation-and-technology-ethiopia"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!------------JavaScript for Toggle Menu-------->
+
+<script src="./javascript.js"></script>
+
+</body>
+</html>
