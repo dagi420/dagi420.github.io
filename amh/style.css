@@ -166,7 +166,7 @@ nav img{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*--------------nav-menu-end------------*/
+
 .text-box{
     width: 90%;
     color: #fff;
@@ -250,9 +250,9 @@ nav .fa{
 
 .slideshow-container { 
     position: relative; /* "relative", so that h1 and images can be set absolutely */
-	height: 80vh; /* Adjust the height to your needs here */
+	height: 80%; /* Adjust the height to your needs here */
 	width: 100%; /* Adjust the width to your needs here */
-	margin-top:1%;
+	margin-top: 8%;
 	overflow: hidden;
 	border-radius: .125rem;
 	box-shadow: 0 0 .1rem .125rem rgba(0, 0, 0, 0.25);
