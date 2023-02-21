@@ -15,7 +15,10 @@ body {
   font-family: "Work Sans", Arial, sans-serif;
   color: #555;
 }
-
+.container {
+  margin: 50px;
+  padding: 50px;
+}
 .press {
   width: 100%;
   margin-top: 50px;

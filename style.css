@@ -318,7 +318,7 @@ nav .fa{
 }
 
 
-@media(max-width: 700px){
+@media(max-width: 200px){
 .slideshow-container{
 	margin-top: 70px;
 	object-fit: contain;
