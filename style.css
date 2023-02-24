@@ -291,14 +291,14 @@ nav .fa{
 
 .slideshow-container { 
     position: relative; /* "relative", so that h1 and images can be set absolutely */
-	height: 80vh; /* Adjust the height to your needs here */
-	width: 100%; /* Adjust the width to your needs here */
+	width: auto; /* Adjust the width to your needs here */
+	margin-top:1%;
 	margin: auto;
 	overflow: hidden;
 	border-radius: .125rem;
-	box-shadow:20px -7px 2rem 0rem rgb(0 0 0 / 25%);
-	object-fit:cover;
+	box-shadow: 0 0 .1rem .125rem rgba(0, 0, 0, 0.25);
 }
+
 .slider--heading {
 	position: absolute;
 	top: 50%;
@@ -309,24 +309,14 @@ nav .fa{
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.5);
 	color: rgba(0, 0, 0, 0.5);
-	transform: translated(-50%, -50%, 0);
+	transform: translate3d(-50%, -50%, 0);
 }
 .slider--heading h1 {
 	font: 300 1.25rem/1.25 Verdana, sans-serif;
 	text-transform: uppercase;
 	color: rgba(0,0,0,.5);
 }
-
-
-@media(max-width: 700px){
-.slideshow-container{
-	margin-top: 70px;
-	object-fit: contain;
-}
-}
-	
-
-/* Responsive styles for the heading */
+	/* Responsive styles for the heading */
 	/* ===== == = === 30em (480px) === = == ===== */
 	@media only screen and (min-width : 30em) {
 		.slider--heading h1 {font-size: 1.5rem;}
@@ -335,7 +325,6 @@ nav .fa{
 	@media only screen and (min-width : 48em) {
         .slider--heading h1 {font-size: 1.75rem;}
 	}
-
 /* Hide the images by default */
 
 .mySlides {
