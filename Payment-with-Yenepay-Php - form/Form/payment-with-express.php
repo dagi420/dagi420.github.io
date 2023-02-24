@@ -2,29 +2,17 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="step-1.css">
+        <link rel="stylesheet" href="style.css">
         <title>Payment</title>
-        <script src="./modernizr.js"></script>
     </head>
     <body>
-     
-        <div id="preloader">
-	         <div data-loader="circle-side"></div>
-	      </div>
-           <!-- /Preload -->
-	
-	      <div id="loader_form">
-		      <div data-loader="circle-side-2"></div>
-	      </div>
-  <!-- /loader_form -->
-   
-  
-  <!-- -----------payment integration form-------------------->
+       
+    <!-------------payment integration form-------------------->
         <form method="post" action="https://test.yenepay.com/">
             <input type="hidden" name="process" value="Express">
-            <input type="hidden" name="successUrl" value="http://localhost/Mint_/Payment-with-Yenepay-Php - form/success.php">
-            <input type="hidden" name="ipnUrl" value="http://localhost/Mint_/Payment-with-Yenepay-Php - form/ipn.php">
-            <input type="hidden" name="cancelUrl" value="http://localhost/Mint_/Payment-with-Yenepay-Php - form/cancel.php">
+            <input type="hidden" name="successUrl" value="http://localhost/Payment-with-Yenepay-Php - form/success.php">
+            <input type="hidden" name="ipnUrssal" value="http://localhost/Payment-with-Yenepay-Php - form/ipn.php">
+            <input type="hidden" name="cancelUrl" value="http://localhost/Payment-with-Yenepay-Php - form/cancel.php">
             <input type="hidden" name="merchantId" value="SB1151">
             <input type="hidden" name="merchantOrderId" value="xy2">
             <input type="hidden" name="expiresAfter" value="24">
@@ -68,8 +56,7 @@
               
                 <div class="col-xl-8 col-lg-8 content-right" id="start">
 	                <div id="wizard_container">
-                    
-	                <form action="https://formsubmit.co/el/komoxo" id="wrapped" method="post" enctype="multipart/form-data">
+                    <form action="https://formsubmit.co/el/komoxo" id="wrapped" method="post" enctype="multipart/form-data">
 
 	                    <div id="middle-wizard">
 	                       	<!-- step start -->
@@ -117,19 +104,47 @@
                                 <label>
                                      <input type="checkbox" checked="checked" name="sameadr"> Direct bank transfer
                                    </label>
-                                   <input type="submit" value="Pay Now" class="btn">            
-                  </div>                 
+                                   <input type="submit" value="Pay Now" class="btn">
+                                    
+                            </div>
+          
+      
+                                                       
+                               <!-- /step-->
+
+	                        <!-- /Start Branch ============================== -->
+	                       
+
+	                        <!-- /Work Availability > Full-time ============================== -->
+	                       
+	                              
+	                        <!-- /step-->
+
+	                        <!-- /Work Availability > Part-time ============================== -->
+	                       
+	                        <!-- /step-->
+
+	                        <!-- /Work Availability > Freelance-Contract ============================== -->
+	                        
+	                        <!-- /step-->
+	                        <!-- /step last-->
+
+	                    
+	                    <!-- /middle-wizard -->
+	                    
+	                    <!-- /bottom-wizard -->
 	                </form>
 	            </div>
-	           
+	            <!-- /Wizard container -->
 	        </div> 
       </form>
     </div>
-  </div>    
+  </div>
+
+
+
+	            
             </div>
         </form>
-
-      </body>
+    </body>
 </html>
-
-

@@ -316,7 +316,17 @@ nav .fa{
 	text-transform: uppercase;
 	color: rgba(0,0,0,.5);
 }
-	/* Responsive styles for the heading */
+
+
+@media(max-width: 700px){
+.slideshow-container{
+	margin-top: 70px;
+	object-fit: contain;
+}
+}
+	
+
+/* Responsive styles for the heading */
 	/* ===== == = === 30em (480px) === = == ===== */
 	@media only screen and (min-width : 30em) {
 		.slider--heading h1 {font-size: 1.5rem;}
@@ -379,7 +389,7 @@ nav .fa{
     }    
 }
 .btns {
-	margin: left;
+	margin: center;
 	padding: .5rem;
 	font-size: 1rem;
 	text-decoration:wavy;
@@ -390,7 +400,7 @@ nav .fa{
 	box-shadow: 0px 0px 0px 0px #ffffff;
 	opacity:80%;
 	color:#E2DFDF;
-    position:relative;
+    position:center;
 }   
 	/* Responsive styles for the button */
 	/* ===== == = === 30em (480px) === = == ===== */

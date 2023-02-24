@@ -108,31 +108,6 @@
                                     
                             </div>
           
-      
-                                                       
-                               <!-- /step-->
-
-	                        <!-- /Start Branch ============================== -->
-	                       
-
-	                        <!-- /Work Availability > Full-time ============================== -->
-	                       
-	                              
-	                        <!-- /step-->
-
-	                        <!-- /Work Availability > Part-time ============================== -->
-	                       
-	                        <!-- /step-->
-
-	                        <!-- /Work Availability > Freelance-Contract ============================== -->
-	                        
-	                        <!-- /step-->
-	                        <!-- /step last-->
-
-	                    
-	                    <!-- /middle-wizard -->
-	                    
-	                    <!-- /bottom-wizard -->
 	                </form>
 	            </div>
 	            <!-- /Wizard container -->
@@ -140,10 +115,6 @@
       </form>
     </div>
   </div>
-
-
-
-	            
             </div>
         </form>
     </body>
